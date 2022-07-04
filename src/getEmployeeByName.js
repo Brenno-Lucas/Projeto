@@ -9,6 +9,4 @@ function getEmployeeByName(employeeName) {
     functionary.firstName === employeeName || functionary.lastName === employeeName);
 }
 
-console.log(getEmployeeByName());
-
 module.exports = getEmployeeByName;
